@@ -1,0 +1,37 @@
+/* This styles the whole page */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+  color: #1E5DAC;
+}
+
+/* This styles the main white box where everything sits */
+.container {
+  background: #B7C5DA;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: inline-block;
+  max-width: 90%;           /* Ensures it fits on small screens */
+  box-sizing: border-box;   /* Prevents padding from overflowing */
+}
+
+/* This styles the input box and button */
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #1E5DAC;
+  border: 1px solid #E8EBED;
+  border-radius: 8px;
+}
+
+/* This styles the result text ("Total: ___ riel") */
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
